@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 150px;
+
+
+
+}
+
+.card-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 445px;
+    overflow: hidden;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    height: 445px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text h1 {
+    max-width: 150px;
+    line-height: 1;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    margin-left: 50px;
+
+}
+
+.card-text p {
+    max-width: 200px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.card-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-price h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.card-price p {
+    text-decoration: line-through;
+}
+
+
+.btn {
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 50px;
+
+}
+
+.button:active {
+    background-color: hsl(158, 42%, 18%);
+}
+
+@media screen and (max-width:480px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
